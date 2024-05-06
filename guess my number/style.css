@@ -120,48 +120,58 @@ h1 {
 /* Media queries for smaller screens */
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 50%; 
+    font-size: 50%; /* Adjust font size for smaller screens */
   }
 
   body {
-    padding: 2rem; 
+    padding: 2rem; /* Add padding to body for better readability */
   }
 
   header {
-    height: 25vh; 
+    height: 25vh; /* Reduce header height for smaller screens */
   }
 
   main {
-    height: 75vh;
-    flex-direction: column; 
+    height: 75vh; /* Increase main height for smaller screens */
+    flex-direction: column; /* Stack main content vertically */
   }
 
   .left,
   .right {
-    width: 100%;
+    width: 100%; /* Make sections take full width on smaller screens */
   }
 
   h1 {
-    font-size: 3rem; 
+    font-size: 3rem; /* Decrease font size for smaller screens */
   }
 
   .number {
-    font-size: 4rem; 
-    padding: 2rem 0; 
+    font-size: 4rem; /* Decrease font size for smaller screens */
+    padding: 2rem 0; /* Adjust padding for smaller screens */
   }
 
   .guess {
-    font-size: 3rem;
-    padding: 1.5rem; 
-    width: 100%; 
+    font-size: 3rem; /* Decrease font size for smaller screens */
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+    width: 100%; /* Make input take full width on smaller screens */
   }
 
   .btn {
-    font-size: 1.8rem; 
-    padding: 1.5rem 2.5rem; 
+    font-size: 1.8rem; /* Decrease font size for smaller screens */
+    padding: 1.5rem 2.5rem; /* Adjust padding for smaller screens */
   }
 
   .message {
-    margin-bottom: 5rem; 
+    margin-bottom: 5rem; /* Adjust margin for smaller screens */
+  }
+
+  .between {
+    margin-top: 2rem; /* Add margin between elements */
+    right: 2rem; /* Adjust position for smaller screens */
+  }
+
+  .again {
+    top: 2rem; /* Adjust position for smaller screens */
+    left: 2rem; /* Adjust position for smaller screens */
   }
 }
