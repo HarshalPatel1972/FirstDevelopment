@@ -18,8 +18,8 @@
 
   --clr-light: #fff;
   --clr-dark: #303030;
-/*   --clr-accent: #16e0bd; */
-/*   --clr-accent: #fcbad3; */
+  /* --clr-accent: #16e0bd; */
+  /* --clr-accent: #fcbad3; */
   --clr-accent: #2199ea;
 
   --fs-h1: 3rem;
@@ -43,7 +43,7 @@
 /* General styles */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -67,6 +67,10 @@ img {
 strong {
   font-weight: var(--fw-bold);
   color: #137dc5;
+}
+
+.reason-behind__title {
+  color: #f986b7;
 }
 
 :focus {
@@ -157,7 +161,7 @@ header {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 280px;
 }
 
 .nav {
@@ -267,6 +271,10 @@ header {
   box-shadow: var(--bs);
 }
 
+.reason-behind__img {
+  box-shadow: var(--bs);
+}
+
 .section__subtitle--intro {
   display: inline-block;
 }
@@ -286,6 +294,13 @@ header {
   .intro__img {
     grid-area: img;
     min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .reason-behind__img {
+    grid-area: img;
+    min-width: 350px;
     position: relative;
     z-index: 2;
   }
